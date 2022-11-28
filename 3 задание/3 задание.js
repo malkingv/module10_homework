@@ -52,7 +52,7 @@ btn.addEventListener('click', () => {
         websocket.send(userMessage);
         writeSmth(userMessage, 'client'); // вывод сообщения клиента
     } else {
-        writeSmth('Введено пустое число', 'client')
+        writeSmth('Введено пустое значение', 'client')
     }
 })
 const success = (position) => {
